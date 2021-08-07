@@ -1,0 +1,48 @@
+/*黑體連結*/
+@import url(//fonts.googleapis.com/earlyaccess/cwtexhei.css);
+/*仿宋體*/
+@import url(//fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+/*
+使用中文字體2種、英文字體3種
+依序為
+中文字體google黑體大標內文使用
+中文字體google仿宋體大標內文使用
+英文字體Playfair Display裝飾大字與內文使用
+英文字體Roboto Slab裝飾小字與標題使用
+英文字體Yellowtail裝飾手繪感使用
+*/
+/* link:https://codepen.io/shhyyb/pen/zENjrK */
+
+body{
+
+background-color: #F4F0EC;
+
+
+}
+.blod{
+  font-weight: 700;
+}
+.cwTeXHei{
+  font-family: 'cwTeXHei', sans-serif;
+  color: rgba(13,22,51,0.5);
+}
+
+.cwTeXFangSong{
+font-family: 'cwTeXFangSong', serif;
+  color: rgba(13,22,51,0.7);
+}
+
+.PlayfairDisplay{
+  font-family: 'Playfair Display', serif;
+  color: rgba(13,22,51,0.5);
+}
+
+.RobotoSlab{
+  font-family: 'Roboto Slab', serif;
+  color: rgba(13,22,51,0.5);
+}
+
+.Yellowtail{
+  font-family: 'Yellowtail', serif;
+  color: rgba(13,22,51,0.5);
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="src/css/style.css">
+<title>畢專投票表單</title>
+</head>
+<body>
+	<!-- 選單設計模組 https://developer.snapappointments.com/bootstrap-select/examples/ -->
+			<!-- window.location 是寫表單送出成功後要進到哪一個頁面 -->
+			<iframe name="iframe_redirect_1" id="iframe_redirect_1" style="display:none;"
+				onload="if(typeof sent_redirect_ntcu!='undefined'){window.location='https://lihi1.me/DdZEH/參數測試';}"></iframe>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+					<form onsubmit="sent_redirect_ntcu=true" target="iframe_redirect_1" action="" method="post"
+						class="mt-2 needs-validation" novalidate>
+						<h3 class="fw-normal cwTeXHei blod">投票表單底加，給我投下去啦</h4>
+					<div class="form-group ">
+						<div class="row">
+							<div class="col-sm-6 mt-2">
+								<label class="control-label" >姓名</label>
+								<input required type="text" class="form-control" placeholder="我是匿名">
+												<div class="valid-feedback">
+													謝謝您的填寫！
+												</div>
+												<div class="invalid-feedback">
+													你的名字對我來說很重要ㄉ哦
+												</div>
+							</div>
+							<div class="col-sm-6 mt-2">
+								<label class="control-label">電子信箱</label>
+								<input required type="email" class="form-control" placeholder="noreply@gmail.com">
+									<div class="valid-feedback">
+										謝謝您的填寫！
+									</div>
+									<div class="invalid-feedback">
+										你的信箱勒
+									</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group mt-2">
+						<div class="row">
+			
+							<div class="col-sm-6">
+								<label class="control-label">選我選我選我</label>
+								<select required name="" class="form-control selectpicker">
+									<option value="">請擇其所好挑取一組</option>
+									<optgroup label="桌上遊戲">
+									
+									
+									</optgroup>
+									<optgroup label="遊戲組">
+
+										<option>異猩浣</option>
+										<option>Devil Defense</option>
+								
+										<option>Toilet Paper</option>
+										<option>越來越不南</option>
+										<option>女王的花園</option>
+										<option>劣蕈城醫</option>
+										<option>紙上談兵</option>
+										<option>逐星者</option>
+										<option>營養HOW解</option>
+									</optgroup>
+									<!-- <optgroup label="網頁遊戲">
+										<option>嗑藥山人:尋草求序</option>
+									</optgroup> -->
+									<optgroup label="網頁組">
+										<option>嗑藥山人:尋草求序</option>
+										<option>LOKAH!農場日誌</option>
+									</optgroup>
+									<optgroup label="程式組">
+										<option>Tiresias</option>
+									</optgroup>
+
+									<optgroup label="齒0令-禾1多">
+										<option>嗨嗨是我啦</option>
+										<option>實習剛好接案有這需求</option>
+										<option>低成本製作後台資料庫</option>
+										<option>羿1君G學姐麻煩老闆+薪好咪</option>
+
+									</optgroup>
+								</select>
+
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-sm-12">
+								<label class="control-label">想對我們說的話</label>
+								<textarea id="message" class="form-control" rows="5" name="message"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="row">
+							<div class="col-sm-12">
+									<button type="button" class="btn btn-primary float-sm-left float-md-right" data-toggle="modal" data-target="#ntcudctModal">commit</button>
+									
+							</div>
+						</div>
+					</div>
+									<div class="modal fade" id="ntcudctModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content">
+												<div class="modal-header">
+													<h5 class="modal-title" id="exampleModalLabel">點擊旁邊視窗可再次確認填寫資料</h5>
+													<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												</div>
+												<div class="modal-body">
+													<p>請確認是否輸入正確資料，按下送出後即可</p>
+												</div>
+												<div class="modal-footer">
+													<button type="button" class="btn btn-primary dropdown-toggle" data-bs-dismiss="modal"
+														data-toggle="dropdown">點我彩蛋<span class="caret"></span></button>
+													<ul class="dropdown-menu" role="menu">
+														<li>
+															<p><a href="https://bit.ly/geniopy-teach-video">專業講師U質教學</a></p>
+														</li>
+														<!-- <li><a href="index.html">返回首頁</a></li> -->
+													</ul>
+													<button type="submit" name="button" value="submit" class="btn btn-primary">送出，粉專按讚訂閱開啟小鈴噹叮叮噹</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
+				</form>
+	
+	
+			</div>
+
+		</div>
+
+		<h3 class="fw-normal cwTeXHei blod">GP-網頁表單</h3>
+
+		<h5 class="fw-normal cwTeXFangSong">(已斷開連結。資料不會真的送出去)</h5>
+						<div class="col-md-6 col-lg-5 my-3 wow fadeInUp">
+							<div class="card-page">
+								
+								<!-- window.location 是寫表單送出成功後要進到哪一個頁面 -->
+								<iframe name="iframe_redirect" id="iframe_redirect" style="display:none;"
+									onload="if(typeof sent_redirect!='undefined'){window.location='https://youtu.be/nYMXtCXSISo';}"></iframe>
+						
+								<form onsubmit="sent_redirect=true" target="iframe_redirect"
+									action="www.google.com.tw"
+									method="post" class="mt-3 needs-validation" novalidate>
+									<div class="form-group">
+										<label for="name" class="fw-medium fg-grey">姓名</label>
+										<input required type="text" name="entry.1180876824" class="form-control" id="name">
+										<div class="valid-feedback">
+											謝謝您！
+										</div>
+										<div class="invalid-feedback">
+											請檢查是否輸入正確資訊
+										</div>
+									</div>
+						
+									<div class="form-group">
+										<span class="icon-books"></span>
+										<label for="email" class="fw-medium fg-grey">郵件</label>
+										<input required type="text" name="emailAddress" class="form-control" id="email">
+										<div class="invalid-feedback">
+											打正確格式啦
+										</div>
+									</div>
+						
+									<!-- <div class="form-group">
+						                    <label for="phone" class="fw-medium fg-grey">電話 (選填)</label>
+						                    <input type="number" class="form-control" id="phone">
+						                  </div> -->
+						
+									<div class="form-group">
+										<label for="message" class="fw-medium fg-grey">留言</label>
+										<textarea required rows="6" neame name="entry.250732952" class="form-control" id="message"
+											placeholder="嗨嗨這裡是實習生建置好的表單，點擊即可輸入內容"></textarea>
+									</div>
+						
+									<p>＊您的留言不會被公開＊</p>
+						
+									<div class="form-group mt-4">
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">commit</button>
+										<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+											aria-hidden="true">
+											<div class="modal-dialog">
+												<div class="modal-content">
+													<div class="modal-header">
+														<h5 class="modal-title" id="exampleModalLabel">點擊旁邊視窗可再次確認填寫資料</h5>
+														<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+													</div>
+													<div class="modal-body">
+														<p>請確認是否輸入正確資料，按下送出後即可完成哦哦哦讚噢</p>
+													</div>
+													<div class="modal-footer">
+														<button type="button" class="btn btn-primary dropdown-toggle" data-bs-dismiss="modal"
+															data-toggle="dropdown">點我一下啦<span class="caret"></span></button>
+														<ul class="dropdown-menu" role="menu">
+															<li>
+																<!-- <p><a href="https://wastu01.github.io/MediawebOfficial/html/">GP官網施工中</a></p> -->
+																<p><a href="https://youtu.be/iLOtqA6BG-4">STEM專業講師研習課程😝</a></p>
+																<p><a href="https://wastu01.github.io/MediawebOfficial/html/">施工中，請停止點擊</a></p>
+															</li>
+															<li><a href="index.html">返回主頁</a></li>
+														</ul>
+														<button type="submit" name="button" value="submit" class="btn btn-primary">送出</button>
+													</div>
+												</div>
+											</div>
+										</div>
+						
+										<!-- <button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+						                        我是測試按鈕
+						                      </button> -->
+						
+									</div>
+						
+								</form>
+							</div>
+						</div>
+
+
+
+
+	</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<script src="src/js/index.js"></script>
+</body>
+</html>
